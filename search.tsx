@@ -6,16 +6,16 @@ export default function Page() {
       {/* On submission, the input value will be appended to
           the URL, e.g. /search?query=abc */}
       <input name="query" />
-      <button type="submit">Submit Form Search</button>
+      <button type="submit">Submit Form Search 1</button>
     </Form>
   )
 }
 
 export default function Page() {
     return (
-      <Form action="/search">
+      <Form action="/search-page">
         <input name="query" />
-        <button type="submit">Submit</button>
+        <button type="submit">Submit page</button>
       </Form>
     )
 }
